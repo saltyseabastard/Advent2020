@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Projects/Advent2020/day1.h
+vector
+-
+
+/cygdrive/d/Projects/Advent2020/main.cpp
+iostream
+-
+string
+-
+vector
+-
+utilities.h
+/cygdrive/d/Projects/Advent2020/utilities.h
+day1.h
+/cygdrive/d/Projects/Advent2020/day1.h
+
+/cygdrive/d/Projects/Advent2020/utilities.cpp
+utilities.h
+/cygdrive/d/Projects/Advent2020/utilities.h
+
+/cygdrive/d/Projects/Advent2020/utilities.h
+vector
+-
+string
+-
+fstream
+-
+iostream
+-
+
