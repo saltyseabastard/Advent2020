@@ -3,17 +3,19 @@
 #include <vector>
 #include "utilities.h"
 #include "day1.h"
+#include "day2.h"
+#include "day3.h"
 
 using namespace std;
 
 int main() {
 
-    Day1 d1;
+    Day3 d3;
 
-    vector<int> day1Input = Utilities::getIntVectorFromFile("day1Input.txt");
-    int multiple = d1.calculate(day1Input);
+    vector<string> dayInput = Utilities::getStringVectorFromFile("day3Input.txt");
+    long answer = d3.calculate2(dayInput);
 
-    cout<<multiple<<endl;
+    cout<<"ANSWER: "<<answer<<endl;
 
     return 0;
 }

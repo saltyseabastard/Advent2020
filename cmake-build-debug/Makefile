@@ -170,6 +170,60 @@ day1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day1.cpp.s
 .PHONY : day1.cpp.s
 
+day2.o: day2.cpp.o
+
+.PHONY : day2.o
+
+# target to build an object file
+day2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day2.cpp.o
+.PHONY : day2.cpp.o
+
+day2.i: day2.cpp.i
+
+.PHONY : day2.i
+
+# target to preprocess a source file
+day2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day2.cpp.i
+.PHONY : day2.cpp.i
+
+day2.s: day2.cpp.s
+
+.PHONY : day2.s
+
+# target to generate assembly for a file
+day2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day2.cpp.s
+.PHONY : day2.cpp.s
+
+day3.o: day3.cpp.o
+
+.PHONY : day3.o
+
+# target to build an object file
+day3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day3.cpp.o
+.PHONY : day3.cpp.o
+
+day3.i: day3.cpp.i
+
+.PHONY : day3.i
+
+# target to preprocess a source file
+day3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day3.cpp.i
+.PHONY : day3.cpp.i
+
+day3.s: day3.cpp.s
+
+.PHONY : day3.s
+
+# target to generate assembly for a file
+day3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day3.cpp.s
+.PHONY : day3.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -236,6 +290,12 @@ help:
 	@echo "... day1.o"
 	@echo "... day1.i"
 	@echo "... day1.s"
+	@echo "... day2.o"
+	@echo "... day2.i"
+	@echo "... day2.s"
+	@echo "... day3.o"
+	@echo "... day3.i"
+	@echo "... day3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

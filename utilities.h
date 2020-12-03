@@ -16,7 +16,7 @@ class Utilities {
 
     public:
         static vector<int> getIntVectorFromFile(string filename);
-
+        static vector<string> getStringVectorFromFile(string filename);
 };
 
 
