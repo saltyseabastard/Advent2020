@@ -6,53 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/Projects/Advent2020/day1.h
-vector
--
+/cygdrive/d/Projects/Advent2020/day4.cpp
+day4.h
+/cygdrive/d/Projects/Advent2020/day4.h
 
-/cygdrive/d/Projects/Advent2020/day2.h
+/cygdrive/d/Projects/Advent2020/day4.h
 iostream
 -
 vector
 -
 string
--
-
-/cygdrive/d/Projects/Advent2020/day3.cpp
-day3.h
-/cygdrive/d/Projects/Advent2020/day3.h
-
-/cygdrive/d/Projects/Advent2020/day3.h
-iostream
--
-vector
--
-string
--
-
-/cygdrive/d/Projects/Advent2020/main.cpp
-iostream
--
-string
--
-vector
--
-utilities.h
-/cygdrive/d/Projects/Advent2020/utilities.h
-day1.h
-/cygdrive/d/Projects/Advent2020/day1.h
-day2.h
-/cygdrive/d/Projects/Advent2020/day2.h
-day3.h
-/cygdrive/d/Projects/Advent2020/day3.h
-
-/cygdrive/d/Projects/Advent2020/utilities.h
-vector
--
-string
--
-fstream
--
-iostream
 -
 

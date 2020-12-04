@@ -5,17 +5,19 @@
 #include "day1.h"
 #include "day2.h"
 #include "day3.h"
+#include "day4.h"
 
 using namespace std;
 
 int main() {
 
-    Day3 d3;
+    Day4 day;
 
-    vector<string> dayInput = Utilities::getStringVectorFromFile("day3Input.txt");
-    long answer = d3.calculate2(dayInput);
+    vector<string> dayInput = Utilities::getStringVectorFromFile("day4Input.txt");
+    long answer = day.calculate1(dayInput);
 
     cout<<"ANSWER: "<<answer<<endl;
 
     return 0;
 }
+
