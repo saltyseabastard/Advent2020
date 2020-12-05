@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/Day5.cpp">
+			<Option target="Advent2020"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/Day5.h">
+			<Option target="Advent2020"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/Projects/Advent2020/day1.cpp">
 			<Option target="Advent2020"/>
 		</Unit>

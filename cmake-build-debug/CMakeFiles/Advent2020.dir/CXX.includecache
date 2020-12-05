@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/Projects/Advent2020/day4.cpp
-day4.h
-/cygdrive/d/Projects/Advent2020/day4.h
+/cygdrive/d/Projects/Advent2020/Day5.cpp
+Day5.h
+/cygdrive/d/Projects/Advent2020/Day5.h
 
-/cygdrive/d/Projects/Advent2020/day4.h
+/cygdrive/d/Projects/Advent2020/Day5.h
 iostream
 -
 vector
 -
 string
+-
+math.h
 -
 

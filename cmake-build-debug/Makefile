@@ -143,6 +143,33 @@ Advent2020/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/build
 .PHONY : Advent2020/fast
 
+Day5.o: Day5.cpp.o
+
+.PHONY : Day5.o
+
+# target to build an object file
+Day5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/Day5.cpp.o
+.PHONY : Day5.cpp.o
+
+Day5.i: Day5.cpp.i
+
+.PHONY : Day5.i
+
+# target to preprocess a source file
+Day5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/Day5.cpp.i
+.PHONY : Day5.cpp.i
+
+Day5.s: Day5.cpp.s
+
+.PHONY : Day5.s
+
+# target to generate assembly for a file
+Day5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/Day5.cpp.s
+.PHONY : Day5.cpp.s
+
 day1.o: day1.cpp.o
 
 .PHONY : day1.o
@@ -314,6 +341,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Advent2020"
+	@echo "... Day5.o"
+	@echo "... Day5.i"
+	@echo "... Day5.s"
 	@echo "... day1.o"
 	@echo "... day1.i"
 	@echo "... day1.s"

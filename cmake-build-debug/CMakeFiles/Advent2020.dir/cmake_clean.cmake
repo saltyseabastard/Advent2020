@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "Advent2020.exe"
   "Advent2020.pdb"
+  "CMakeFiles/Advent2020.dir/Day5.cpp.o"
   "CMakeFiles/Advent2020.dir/day1.cpp.o"
   "CMakeFiles/Advent2020.dir/day2.cpp.o"
   "CMakeFiles/Advent2020.dir/day3.cpp.o"

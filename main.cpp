@@ -6,14 +6,15 @@
 #include "day2.h"
 #include "day3.h"
 #include "day4.h"
+#include "day5.h"
 
 using namespace std;
 
 int main() {
 
-    Day4 day;
+    Day5 day;
 
-    vector<string> dayInput = Utilities::getStringVectorFromFile("day4Input.txt");
+    vector<string> dayInput = Utilities::getStringVectorFromFile("day5Input.txt");
     long answer = day.calculate1(dayInput);
 
     cout<<"ANSWER: "<<answer<<endl;
