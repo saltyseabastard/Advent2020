@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Advent2020.dir/day2.cpp.o"
   "CMakeFiles/Advent2020.dir/day3.cpp.o"
   "CMakeFiles/Advent2020.dir/day4.cpp.o"
+  "CMakeFiles/Advent2020.dir/day6.cpp.o"
   "CMakeFiles/Advent2020.dir/main.cpp.o"
   "CMakeFiles/Advent2020.dir/utilities.cpp.o"
   "libAdvent2020.dll.a"

@@ -11,7 +11,6 @@
 class Day5 {
 public:
     int calculate1(std::vector<std::string> input);
-
 };
 
 struct Seat

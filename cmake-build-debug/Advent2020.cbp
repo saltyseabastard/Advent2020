@@ -110,6 +110,12 @@
 		<Unit filename="/cygdrive/d/Projects/Advent2020/day4.h">
 			<Option target="Advent2020"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/day6.cpp">
+			<Option target="Advent2020"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/day6.h">
+			<Option target="Advent2020"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/Projects/Advent2020/main.cpp">
 			<Option target="Advent2020"/>
 		</Unit>

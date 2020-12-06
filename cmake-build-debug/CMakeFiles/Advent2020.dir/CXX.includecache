@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/Projects/Advent2020/Day5.cpp
-Day5.h
-/cygdrive/d/Projects/Advent2020/Day5.h
+/cygdrive/d/Projects/Advent2020/day6.cpp
+day6.h
+/cygdrive/d/Projects/Advent2020/day6.h
 
-/cygdrive/d/Projects/Advent2020/Day5.h
+/cygdrive/d/Projects/Advent2020/day6.h
 iostream
 -
 vector

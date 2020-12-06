@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/sandw/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/sandw/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/sandw/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /cygdrive/c/Users/sandw/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /cygdrive/d/Projects/Advent2020/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/sandw/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/sandw/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/sandw/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/sandw/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -278,6 +278,33 @@ day4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day4.cpp.s
 .PHONY : day4.cpp.s
 
+day6.o: day6.cpp.o
+
+.PHONY : day6.o
+
+# target to build an object file
+day6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day6.cpp.o
+.PHONY : day6.cpp.o
+
+day6.i: day6.cpp.i
+
+.PHONY : day6.i
+
+# target to preprocess a source file
+day6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day6.cpp.i
+.PHONY : day6.cpp.i
+
+day6.s: day6.cpp.s
+
+.PHONY : day6.s
+
+# target to generate assembly for a file
+day6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day6.cpp.s
+.PHONY : day6.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -356,6 +383,9 @@ help:
 	@echo "... day4.o"
 	@echo "... day4.i"
 	@echo "... day4.s"
+	@echo "... day6.o"
+	@echo "... day6.i"
+	@echo "... day6.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

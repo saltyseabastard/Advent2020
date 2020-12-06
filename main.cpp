@@ -2,20 +2,17 @@
 #include <string>
 #include <vector>
 #include "utilities.h"
-#include "day1.h"
-#include "day2.h"
-#include "day3.h"
-#include "day4.h"
-#include "day5.h"
+
+#include "day6.h"
 
 using namespace std;
 
 int main() {
 
-    Day5 day;
+    Day6 day;
 
-    vector<string> dayInput = Utilities::getStringVectorFromFile("day5Input.txt");
-    long answer = day.calculate1(dayInput);
+    vector<string> dayInput = Utilities::getStringVectorFromFile("day6Input.txt");
+    long answer = day.calculate2(dayInput);
 
     cout<<"ANSWER: "<<answer<<endl;
 

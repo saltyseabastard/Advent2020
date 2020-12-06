@@ -49,6 +49,7 @@ int Day5::calculate1(std::vector<std::string> input) {
     }
 
     vector<int> sortedIDs;
+
     for (int i = 0; i < seats.size(); ++i) {
         sortedIDs.push_back(seats[i].id);
     }
