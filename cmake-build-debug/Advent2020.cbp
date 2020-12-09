@@ -86,6 +86,12 @@
 		<Unit filename="/cygdrive/d/Projects/Advent2020/Day5.h">
 			<Option target="Advent2020"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/Day9.cpp">
+			<Option target="Advent2020"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/Day9.h">
+			<Option target="Advent2020"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/Projects/Advent2020/day1.cpp">
 			<Option target="Advent2020"/>
 		</Unit>
@@ -114,6 +120,18 @@
 			<Option target="Advent2020"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/Projects/Advent2020/day6.h">
+			<Option target="Advent2020"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/day7.cpp">
+			<Option target="Advent2020"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/day7.h">
+			<Option target="Advent2020"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/day8.cpp">
+			<Option target="Advent2020"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Projects/Advent2020/day8.h">
 			<Option target="Advent2020"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/Projects/Advent2020/main.cpp">

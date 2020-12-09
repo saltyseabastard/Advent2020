@@ -17,6 +17,7 @@ class Utilities {
     public:
         static vector<int> getIntVectorFromFile(string filename);
         static vector<string> getStringVectorFromFile(string filename);
+        static vector<std::string> split(const std::string &text, char sep);
 };
 
 

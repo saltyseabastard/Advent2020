@@ -181,6 +181,45 @@ CMakeFiles/Advent2020.dir/day6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advent2020.dir/day6.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Projects/Advent2020/day6.cpp -o CMakeFiles/Advent2020.dir/day6.cpp.s
 
+CMakeFiles/Advent2020.dir/day7.cpp.o: CMakeFiles/Advent2020.dir/flags.make
+CMakeFiles/Advent2020.dir/day7.cpp.o: ../day7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Advent2020.dir/day7.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Advent2020.dir/day7.cpp.o -c /cygdrive/d/Projects/Advent2020/day7.cpp
+
+CMakeFiles/Advent2020.dir/day7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advent2020.dir/day7.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Projects/Advent2020/day7.cpp > CMakeFiles/Advent2020.dir/day7.cpp.i
+
+CMakeFiles/Advent2020.dir/day7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advent2020.dir/day7.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Projects/Advent2020/day7.cpp -o CMakeFiles/Advent2020.dir/day7.cpp.s
+
+CMakeFiles/Advent2020.dir/day8.cpp.o: CMakeFiles/Advent2020.dir/flags.make
+CMakeFiles/Advent2020.dir/day8.cpp.o: ../day8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Advent2020.dir/day8.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Advent2020.dir/day8.cpp.o -c /cygdrive/d/Projects/Advent2020/day8.cpp
+
+CMakeFiles/Advent2020.dir/day8.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advent2020.dir/day8.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Projects/Advent2020/day8.cpp > CMakeFiles/Advent2020.dir/day8.cpp.i
+
+CMakeFiles/Advent2020.dir/day8.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advent2020.dir/day8.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Projects/Advent2020/day8.cpp -o CMakeFiles/Advent2020.dir/day8.cpp.s
+
+CMakeFiles/Advent2020.dir/Day9.cpp.o: CMakeFiles/Advent2020.dir/flags.make
+CMakeFiles/Advent2020.dir/Day9.cpp.o: ../Day9.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Advent2020.dir/Day9.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Advent2020.dir/Day9.cpp.o -c /cygdrive/d/Projects/Advent2020/Day9.cpp
+
+CMakeFiles/Advent2020.dir/Day9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advent2020.dir/Day9.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Projects/Advent2020/Day9.cpp > CMakeFiles/Advent2020.dir/Day9.cpp.i
+
+CMakeFiles/Advent2020.dir/Day9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advent2020.dir/Day9.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Projects/Advent2020/Day9.cpp -o CMakeFiles/Advent2020.dir/Day9.cpp.s
+
 # Object files for target Advent2020
 Advent2020_OBJECTS = \
 "CMakeFiles/Advent2020.dir/main.cpp.o" \
@@ -190,7 +229,10 @@ Advent2020_OBJECTS = \
 "CMakeFiles/Advent2020.dir/day3.cpp.o" \
 "CMakeFiles/Advent2020.dir/day4.cpp.o" \
 "CMakeFiles/Advent2020.dir/Day5.cpp.o" \
-"CMakeFiles/Advent2020.dir/day6.cpp.o"
+"CMakeFiles/Advent2020.dir/day6.cpp.o" \
+"CMakeFiles/Advent2020.dir/day7.cpp.o" \
+"CMakeFiles/Advent2020.dir/day8.cpp.o" \
+"CMakeFiles/Advent2020.dir/Day9.cpp.o"
 
 # External object files for target Advent2020
 Advent2020_EXTERNAL_OBJECTS =
@@ -203,9 +245,12 @@ Advent2020.exe: CMakeFiles/Advent2020.dir/day3.cpp.o
 Advent2020.exe: CMakeFiles/Advent2020.dir/day4.cpp.o
 Advent2020.exe: CMakeFiles/Advent2020.dir/Day5.cpp.o
 Advent2020.exe: CMakeFiles/Advent2020.dir/day6.cpp.o
+Advent2020.exe: CMakeFiles/Advent2020.dir/day7.cpp.o
+Advent2020.exe: CMakeFiles/Advent2020.dir/day8.cpp.o
+Advent2020.exe: CMakeFiles/Advent2020.dir/Day9.cpp.o
 Advent2020.exe: CMakeFiles/Advent2020.dir/build.make
 Advent2020.exe: CMakeFiles/Advent2020.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Advent2020.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Advent2020.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Advent2020.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
