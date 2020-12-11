@@ -3,15 +3,15 @@
 #include <vector>
 #include "utilities.h"
 
-#include "day9.h"
+#include "day10.h"
 
 using namespace std;
 
 int main() {
 
-    Day9 day;
+    Day10 day;
 
-    vector<string> dayInput = Utilities::getStringVectorFromFile("day9Input.txt");
+    vector<string> dayInput = Utilities::getStringVectorFromFile("day10Input.txt");
     long answer = day.calculate2(dayInput);
 
     cout<<"ANSWER: "<<answer<<endl;

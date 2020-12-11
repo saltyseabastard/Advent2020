@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/d/Projects/Advent2020/Day5.cpp" "/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles/Advent2020.dir/Day5.cpp.o"
   "/cygdrive/d/Projects/Advent2020/Day9.cpp" "/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles/Advent2020.dir/Day9.cpp.o"
   "/cygdrive/d/Projects/Advent2020/day1.cpp" "/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles/Advent2020.dir/day1.cpp.o"
+  "/cygdrive/d/Projects/Advent2020/day10.cpp" "/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles/Advent2020.dir/day10.cpp.o"
   "/cygdrive/d/Projects/Advent2020/day2.cpp" "/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles/Advent2020.dir/day2.cpp.o"
   "/cygdrive/d/Projects/Advent2020/day3.cpp" "/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles/Advent2020.dir/day3.cpp.o"
   "/cygdrive/d/Projects/Advent2020/day4.cpp" "/cygdrive/d/Projects/Advent2020/cmake-build-debug/CMakeFiles/Advent2020.dir/day4.cpp.o"

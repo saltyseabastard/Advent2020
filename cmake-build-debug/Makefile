@@ -224,6 +224,33 @@ day1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day1.cpp.s
 .PHONY : day1.cpp.s
 
+day10.o: day10.cpp.o
+
+.PHONY : day10.o
+
+# target to build an object file
+day10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day10.cpp.o
+.PHONY : day10.cpp.o
+
+day10.i: day10.cpp.i
+
+.PHONY : day10.i
+
+# target to preprocess a source file
+day10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day10.cpp.i
+.PHONY : day10.cpp.i
+
+day10.s: day10.cpp.s
+
+.PHONY : day10.s
+
+# target to generate assembly for a file
+day10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Advent2020.dir/build.make CMakeFiles/Advent2020.dir/day10.cpp.s
+.PHONY : day10.cpp.s
+
 day2.o: day2.cpp.o
 
 .PHONY : day2.o
@@ -458,6 +485,9 @@ help:
 	@echo "... day1.o"
 	@echo "... day1.i"
 	@echo "... day1.s"
+	@echo "... day10.o"
+	@echo "... day10.i"
+	@echo "... day10.s"
 	@echo "... day2.o"
 	@echo "... day2.i"
 	@echo "... day2.s"

@@ -10,6 +10,9 @@ CMakeFiles/Advent2020.dir/Day9.cpp.o
 CMakeFiles/Advent2020.dir/day1.cpp.o
  /cygdrive/d/Projects/Advent2020/day1.cpp
  /cygdrive/d/Projects/Advent2020/day1.h
+CMakeFiles/Advent2020.dir/day10.cpp.o
+ /cygdrive/d/Projects/Advent2020/day10.cpp
+ /cygdrive/d/Projects/Advent2020/day10.h
 CMakeFiles/Advent2020.dir/day2.cpp.o
  /cygdrive/d/Projects/Advent2020/day2.cpp
  /cygdrive/d/Projects/Advent2020/day2.h
@@ -31,7 +34,7 @@ CMakeFiles/Advent2020.dir/day8.cpp.o
  /cygdrive/d/Projects/Advent2020/day8.h
  /cygdrive/d/Projects/Advent2020/utilities.h
 CMakeFiles/Advent2020.dir/main.cpp.o
- /cygdrive/d/Projects/Advent2020/day9.h
+ /cygdrive/d/Projects/Advent2020/day10.h
  /cygdrive/d/Projects/Advent2020/main.cpp
  /cygdrive/d/Projects/Advent2020/utilities.h
 CMakeFiles/Advent2020.dir/utilities.cpp.o

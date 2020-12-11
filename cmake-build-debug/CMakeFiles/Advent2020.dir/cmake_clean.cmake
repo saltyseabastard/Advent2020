@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Advent2020.dir/Day5.cpp.o"
   "CMakeFiles/Advent2020.dir/Day9.cpp.o"
   "CMakeFiles/Advent2020.dir/day1.cpp.o"
+  "CMakeFiles/Advent2020.dir/day10.cpp.o"
   "CMakeFiles/Advent2020.dir/day2.cpp.o"
   "CMakeFiles/Advent2020.dir/day3.cpp.o"
   "CMakeFiles/Advent2020.dir/day4.cpp.o"

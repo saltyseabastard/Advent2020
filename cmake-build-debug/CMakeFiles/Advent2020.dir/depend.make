@@ -10,6 +10,9 @@ CMakeFiles/Advent2020.dir/Day9.cpp.o: ../Day9.h
 CMakeFiles/Advent2020.dir/day1.cpp.o: ../day1.cpp
 CMakeFiles/Advent2020.dir/day1.cpp.o: ../day1.h
 
+CMakeFiles/Advent2020.dir/day10.cpp.o: ../day10.cpp
+CMakeFiles/Advent2020.dir/day10.cpp.o: ../day10.h
+
 CMakeFiles/Advent2020.dir/day2.cpp.o: ../day2.cpp
 CMakeFiles/Advent2020.dir/day2.cpp.o: ../day2.h
 
@@ -30,7 +33,7 @@ CMakeFiles/Advent2020.dir/day8.cpp.o: ../day8.cpp
 CMakeFiles/Advent2020.dir/day8.cpp.o: ../day8.h
 CMakeFiles/Advent2020.dir/day8.cpp.o: ../utilities.h
 
-CMakeFiles/Advent2020.dir/main.cpp.o: ../day9.h
+CMakeFiles/Advent2020.dir/main.cpp.o: ../day10.h
 CMakeFiles/Advent2020.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Advent2020.dir/main.cpp.o: ../utilities.h
 
